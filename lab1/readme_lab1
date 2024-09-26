@@ -1,0 +1,22 @@
+myCvtColorToGray - перевод цветного изображения в градации серого
+
+myApplyMask - применить маску к изображению
+
+myBlendImages - обобщённое смешивание изображений. Использует альфа каналы исходных 2 картинок (поэтому в папке src есть "flag rf with alpha" и "rainbow with alpha")
+
+myBlendImagesWitmMask - смешивает 2 изображения по маске
+
+myCreateAlpha - создаёт альфа канал по маске
+
+myTransposeImage - транспонирование
+
+myMirrorImageHorizontally - отразить горизонтально
+
+muMirrorImageVertically - отразить вертикально
+
+В папке src\result есть две папки cats и kurgan.
+
+cats - смесь котика и градиента 1, перевод в серый и применение маски с кругом, проверка отражений и транспонирования
+
+kurgan - смесь фото города и радуги
+                                                                                                
