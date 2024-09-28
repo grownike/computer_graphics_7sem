@@ -1,0 +1,11 @@
+myCvtColorToGray - перевод цветного изображения в градации серого.
+
+myGrayFloydSteinbergDithering - Рассеяние ошибки:Floyd-Steinberg для изображений в градациях серого
+
+myColorFloydSteinbergDithering - Рассеяние ошибки:Floyd-Steinberg для цветных изображений
+
+myGrayStuckiDithering - Рассеяние ошибки:Stucki для изображений в градациях серого
+
+myColorStuckiDithering - Рассеяние ошибки:Stucki для цветных изображений
+
+Результаты в папке result - поделены по цветам
