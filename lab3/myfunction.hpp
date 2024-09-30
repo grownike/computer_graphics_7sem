@@ -168,8 +168,8 @@ void myDrawLineMod(Mat& image, Point p1, Point p2, Scalar color, int width, cons
         vector<Point> line = { p_1, p_2, p_3, p_4 };
 
         fillPolygonNonZeroWinding(image, line, color);
-        myDrawCircle(image, center1, W, GREEN, true);
-        myDrawCircle(image, center2, W, GREEN, true);
+        myDrawCircle(image, center1, W, color, true);
+        myDrawCircle(image, center2, W, color, true);
 
         return;
     }
@@ -560,7 +560,7 @@ IntersectType Cross(double ax, double ay, double bx, double by, double cx, doubl
 
 
 //это не используется, просто оставил - это я так изначально пытался сделать. В моменте понял, что проще всю линию делать как полигон
-//А потом понял, что это Вы и сказали сделать в письме на почту
+//А потом понял, что это Вы и сказали сделать в письме на почту :)
 void myDrawLineModOLD(Mat& image, Point p1, Point p2, Scalar color, int width, const string& capType) {
 
     if (p2.x < p1.x and p2.y < p1.y) {
