@@ -1,0 +1,12 @@
+square Polyline is convex, has NOT self intersections.
+bad_square Polyline is NOT convex, has NOT self intersections.
+triangl ePolyline is convex, has NOT self intersections.
+trapezoid Polyline is convex, has NOT self intersections.
+star Polyline is convex, has self intersections.
+
+
+
+
+RED IS NonZeroWinding
+BLUE IS EvenOdd
+GREEN IS fillPolygonEvenOddBAD
